@@ -56,6 +56,10 @@ ul li{
 	position: absolute;
 }
 
+#menu>ul>li>ul li{
+	position: relative;
+}
+
 #menu>ul>li ul a{
 	display: block;
 	line-height: 30px;
@@ -81,6 +85,7 @@ ul li{
 	background-color: #D5B0AC;
 	position: absolute;
 	left: 200px;
+	top: 0;
 	width: 200px;
 }
 
